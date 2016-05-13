@@ -1,0 +1,22 @@
+.tf_widget_common_class:nth-child(odd) {
+  color:#777;
+}
+.tf_widget_common_class:nth-child(odd):hover {
+	background: rgba(17, 75, 125, 0.05);
+}
+.tf_widget_common_class {border-bottom:none;margin-bottom: 0px;}
+.tf-widget-screen-name a {color:#636363 ;font-weight: 800;}
+
+.tf-widget-text-status a {
+	color:#3A3A3A;text-decoration: underline;
+}
+
+.tf-widget-text-status {
+	color: #777;
+}
+.tf-widget-media-image {
+	background: #000;
+}
+.tf-widget-media-image img {
+	opacity: 0.6;
+}

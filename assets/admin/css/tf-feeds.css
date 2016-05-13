@@ -1,0 +1,14 @@
+.tf_settings_details tr th, .tf_basic_details tr th {text-align: left;}
+.tf_settings_details tr td input{width:500px;}
+.tf_settings_details tr th {width:200px; padding:6px 0px;}
+.tf_settings_details input {padding:6px;}
+.tf_feeds_count {width: 40%;}
+.tf_theme_element_td { width: 16%; }
+.tf_basic_details tr th {width: 56%; padding: 10px 0px;}
+.notice-custom-tf {margin:0 0 10px 0;}
+.creator_of_all {font-size: 16px; font-style: italic; background: #ccc; padding:10px;}
+.tf-information-sec li{padding-left:10px;}
+
+/**widget**/
+.tf-feed-scroller {margin-top:10px; }
+.tf-feed-scroller h3{ border-bottom:1px solid #ccc;}

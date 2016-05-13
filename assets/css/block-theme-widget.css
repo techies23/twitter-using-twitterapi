@@ -1,0 +1,12 @@
+.tf_widget_common_class:hover {
+	background: rgba(27, 149, 224, 0.14);
+}
+
+.tf_widget_common_class { border: 1px solid #eee;margin-bottom: 14px;border-radius: 6px;}
+/*.tf_common_class:nth-child(odd) {
+	background: rgba(247, 252, 255, 0.79);
+	border-bottom:none;margin-bottom: 0px;
+}
+.tf_common_class:nth-child(even) {
+	border-bottom:none;margin-bottom: 0px;
+}*/
