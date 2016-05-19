@@ -115,12 +115,12 @@
 						<ul class="tf-information-sec">
 							<li><a target="_blank" href="http://deepenbajracharya.com.np/documentation/twitter/1.0"><?php _e('Documentation', 'tf'); ?></a></li>
 							<li><a target="_blank" href="http://deepenbajracharya.com.np/documentation/twitter/1.0/#faq"><?php _e('FAQ', 'tf'); ?></a></li>
-							<li><a target="_blank" href="http://deepenbajracharya.com.np"><?php _e('Developer', 'tf'); ?></a></li>
+							<li><a target="_blank" href="http://deepenbajracharya.com.np/know-me-more/"><?php _e('Developer', 'tf'); ?></a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="inside">
-					<p class="creator_of_all"><?php _e('Developed by <a target="_blank" href="http://deepenbajracharya.com.np">Deepen</a><br>Plugin Version '.TF_PLUGIN_VERSION); ?></p>
+					<p class="creator_of_all"><?php _e('Developed by <a target="_blank" href="http://deepenbajracharya.com.np">Deepen</a> <a target="_blank" href="https://twitter.com/techies23">(@techies23)</a><br>Plugin Version '.TF_PLUGIN_VERSION); ?></p>
 				</div>
 			</div>
 		</div>

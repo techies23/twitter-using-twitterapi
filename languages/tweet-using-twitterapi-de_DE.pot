@@ -1,0 +1,317 @@
+# Copyright (C) 2016 Tweet using TwitterAPI
+# This file is distributed under the same license as the Tweet using TwitterAPI package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Tweet using TwitterAPI 1.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/tweet-using-"
+"twitterapi\n"
+"POT-Creation-Date: 2016-05-19 10:19+0530\n"
+"PO-Revision-Date: 2016-05-19 10:20+0530\n"
+"Last-Translator: Deepen Bajracharya <dpen.connectify@gmail.com>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/activators/activator.php:17
+#, php-format
+msgid " requires %s or newer."
+msgstr "erfordert %s or neueren"
+
+#: includes/activators/activator.php:23
+msgid ""
+"Warning! It is not possible to activate this plugin as it requires above PHP "
+"5.4 and on this server the PHP version installed is: "
+msgstr ""
+"Warnung! Es ist nicht möglich, dieses Plugin zu aktivieren, wie es oben PHP "
+"5.4 und auf diesem Server erfordert die PHP-Version installiert ist:"
+
+#: includes/activators/activator.php:23
+msgid ""
+"For security reasons we <b>suggest</b> that you contact your hosting "
+"provider and ask to update your PHP to latest stable version."
+msgstr ""
+"Aus Sicherheitsgründen wir <b>vorschlagen</ b>, dass Sie Ihren Hosting-"
+"Provider und fragen Sie Ihren PHP neueste stabile Version zu aktualisieren."
+
+#: includes/activators/activator.php:23
+msgid ""
+"If they refuse for whatever reason we suggest you to <b>change provider as "
+"soon as possible</b>."
+msgstr ""
+"Wenn sie aus irgendeinem Grund weigern, empfehlen wir Ihnen, auf "
+"<b>Providerwechsel so schnell wie möglich</ b>."
+
+#: includes/widgets/TwitterAPIWidget.php:39
+msgid "New title"
+msgstr "Neuer Titel"
+
+#: includes/widgets/TwitterAPIWidget.php:40
+#: includes/widgets/TwitterAPIWidget.php:61
+msgid "Type"
+msgstr "Art"
+
+#: includes/widgets/TwitterAPIWidget.php:53
+msgid "Title:"
+msgstr "Titel:"
+
+#: includes/widgets/TwitterAPIWidget.php:57
+msgid "Type:"
+msgstr "Art:"
+
+#: includes/widgets/TwitterAPIWidget.php:59
+msgid "mentions_timeline"
+msgstr ""
+
+#: includes/widgets/TwitterAPIWidget.php:59
+msgid "Mentions Timeline"
+msgstr "Mentions Timeline"
+
+#: includes/widgets/TwitterAPIWidget.php:60
+msgid "user_timeline"
+msgstr ""
+
+#: includes/widgets/TwitterAPIWidget.php:60
+msgid "User Timeline"
+msgstr "Benutzertimeline"
+
+#: includes/widgets/TwitterAPIWidget.php:61
+msgid "home_timeline"
+msgstr ""
+
+#: includes/widgets/TwitterAPIWidget.php:61
+msgid "Home Timeline"
+msgstr "Startseite Timeline"
+
+#: includes/widgets/TwitterAPIWidget.php:62
+msgid "retweets_own_by_others"
+msgstr ""
+
+#: includes/widgets/TwitterAPIWidget.php:62
+msgid "Own Retweets"
+msgstr "Eigene Retweets"
+
+#: includes/widgets/TwitterAPIWidget.php:66
+msgid "Enable Profile thumbnail:"
+msgstr "Aktivieren Profil Miniaturbild:"
+
+#: includes/widgets/TwitterAPIWidget.php:70
+msgid "Enable Post Images:"
+msgstr "Aktivieren Beitrag Bilder:"
+
+#: includes/widgets/TwitterAPIWidget.php:74
+msgid "Height:"
+msgstr "Höhe:"
+
+#: includes/widgets/TwitterAPIWidget.php:78
+msgid "Number of Tweets:"
+msgstr "Anzahl der Tweets:"
+
+#: includes/widgets/TwitterAPIWidget.php:82
+msgid "Follow Button:"
+msgstr "Folgen Schaltfläche:"
+
+#: includes/widgets/TwitterAPIWidget.php:88
+msgid "Scroller Styles"
+msgstr "Scrollbar Styles"
+
+#: includes/widgets/TwitterAPIWidget.php:90
+msgid "Scroller Color"
+msgstr "Scrollbar Farbe"
+
+#: includes/widgets/TwitterAPIWidget.php:94
+msgid "Scroller Width"
+msgstr "Scrollbar Breite"
+
+#: includes/widgets/TwitterAPIWidget.php:98
+msgid "Choose Theme:"
+msgstr "Wählen Sie Thema:"
+
+#: includes/widgets/TwitterAPIWidget.php:100
+msgid "tf_default_widget_theme"
+msgstr ""
+
+#: includes/widgets/TwitterAPIWidget.php:100
+msgid "Default Theme"
+msgstr "Default Theme"
+
+#: includes/widgets/TwitterAPIWidget.php:101
+msgid "tf_block_widget_theme"
+msgstr ""
+
+#: includes/widgets/TwitterAPIWidget.php:101
+msgid "Styled Box Theme"
+msgstr "Styled Box Theme"
+
+#: includes/widgets/TwitterAPIWidget.php:102
+msgid "tf_black_widget_theme"
+msgstr ""
+
+#: includes/widgets/TwitterAPIWidget.php:102
+#: includes/pages/html/tf_settings.php:82
+msgid "Black Theme"
+msgstr "Black Theme"
+
+#: includes/pages/TwitterAPIPage.php:37
+msgid "Twitter API Settings"
+msgstr "Einstellungen Twitter-API"
+
+#: includes/pages/TwitterAPIPage.php:78
+msgid ""
+"Awww !! We hate this red bar. Perhaps its causing because one of the "
+"necessary field is blank. :)"
+msgstr ""
+"Aww !! Wir hassen diese roten Balken. Vielleicht verursacht es, weil eine "
+"der notwendigen Feld leer ist. :)"
+
+#: includes/pages/TwitterAPIPage.php:108
+msgid ""
+"<strong>Successfully Updated. Clear the Twitter Cache for fetching new data. "
+"<a id=\"tf-flush-cache\" href=\"javascript:void(0);\">Clear</a></strong>"
+msgstr ""
+"<strong>Erfolgreich aktualisiert. Deaktivieren Sie das Twitter-Cache zum "
+"Abrufen neuer Daten. <a id=\"tf-flush-cache\" href=\"javascript:void(0);"
+"\">Clear</a></strong>"
+
+#: includes/pages/TwitterAPIPage.php:138
+msgid "Successfully Added !"
+msgstr "Erfolgreich hinzugefügt !"
+
+#: includes/pages/html/tf_settings.php:3
+msgid ""
+"Required API Keys are missing !! See <a href=\"http://deepenbajracharya.com."
+"np/documentation/twitter/1.0\">documentation</a> of how to configure. "
+msgstr ""
+"Erforderliche API-Schlüssel fehlen !! See <a href=\"http://deepenbajracharya."
+"com.np/documentation/twitter/1.0\">documentation</a> of how to configure. "
+
+#: includes/pages/html/tf_settings.php:12
+msgid "Credentials"
+msgstr "Referenzen"
+
+#: includes/pages/html/tf_settings.php:14
+msgid "Here lies your Crendentials found in Developer Account Section."
+msgstr "Hier liegt Ihre Credentials in Entwicklerkonto Abschnitt gefunden."
+
+#: includes/pages/html/tf_settings.php:20
+msgid "Twitter Username @"
+msgstr "Twitter Benutzername @"
+
+#: includes/pages/html/tf_settings.php:24
+msgid "Access Token"
+msgstr "Zugangstoken"
+
+#: includes/pages/html/tf_settings.php:28
+msgid "Access Secret Token"
+msgstr "Zugang Geheimnis Token"
+
+#: includes/pages/html/tf_settings.php:32
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#: includes/pages/html/tf_settings.php:36
+msgid "Consumer Secret Key"
+msgstr "Consumer Secret Key"
+
+#: includes/pages/html/tf_settings.php:43
+msgid "Basic Settings"
+msgstr "Grundeinstellungen"
+
+#: includes/pages/html/tf_settings.php:47
+msgid "Feeds Count"
+msgstr "Feeds Graf"
+
+#: includes/pages/html/tf_settings.php:51
+msgid "Show Followers"
+msgstr "anzeigen Verfolger"
+
+#: includes/pages/html/tf_settings.php:55
+msgid "Show Following"
+msgstr "Zeigen Nach"
+
+#: includes/pages/html/tf_settings.php:59
+msgid "Exclude Replies from Feeds<br>(For User Timeline)"
+msgstr "Ausschließen Antworten von Feeds<br>(For User Timeline)"
+
+#: includes/pages/html/tf_settings.php:63
+msgid "Enable Profile thumbnail"
+msgstr "Aktivieren Profil Thumbnail"
+
+#: includes/pages/html/tf_settings.php:67
+msgid "Show Post Thumbnails"
+msgstr "Beitrag zeigen Thumbnails"
+
+#: includes/pages/html/tf_settings.php:71
+msgid "Show Retweets Icon"
+msgstr "Zeigen Retweets Icon"
+
+#: includes/pages/html/tf_settings.php:75
+msgid "Show Follow Button"
+msgstr "Show Folgen Knopf"
+
+#: includes/pages/html/tf_settings.php:79
+msgid "Theme"
+msgstr "Thema"
+
+#: includes/pages/html/tf_settings.php:80
+msgid "Default"
+msgstr "Standard"
+
+#: includes/pages/html/tf_settings.php:81
+msgid "Stylish Boxes"
+msgstr "Stilvolle Boxes"
+
+#: includes/pages/html/tf_settings.php:91
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: includes/pages/html/tf_settings.php:101
+msgid ""
+"<strong><a id=\"tf-flush-cache\" href=\"javascript:void(0);\">Clear Twitter "
+"Cache</a></strong>"
+msgstr ""
+"<strong><a id=\"tf-flush-cache\" href=\"javascript:void(0);\">Klar Twitter "
+"Cache</a></strong>"
+
+#: includes/pages/html/tf_settings.php:102
+msgid ""
+"<strong><a id=\"tf-flush-keys\" href=\"javascript:void(0);\">Flush Keys</a></"
+"strong>"
+msgstr ""
+"<strong><a id=\"tf-flush-keys\" href=\"javascript:void(0);\">Flush Keys</a></"
+"strong>"
+
+#: includes/pages/html/tf_settings.php:113
+msgid "Information"
+msgstr "Information"
+
+#: includes/pages/html/tf_settings.php:116
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: includes/pages/html/tf_settings.php:117
+msgid "FAQ"
+msgstr ""
+
+#: includes/pages/html/tf_settings.php:118
+msgid "Developer"
+msgstr ""
+
+#: includes/pages/html/tf_settings.php:123
+msgid ""
+"Developed by <a target=\"_blank\" href=\"http://deepenbajracharya.com.np"
+"\">Deepen</a> <a target=\"_blank\" href=\"https://twitter.com/"
+"techies23\">(@techies23)</a><br>Plugin Version "
+msgstr ""
+"Entwickelt von <a target=\"_blank\" href=\"http://deepenbajracharya.com.np"
+"\">Deepen</a> <a target=\"_blank\" href=\"https://twitter.com/"
+"techies23\">(@techies23)</a><br>Plugin Version "

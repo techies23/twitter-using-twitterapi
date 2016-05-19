@@ -70,7 +70,7 @@ if( !class_exists('TwitterAPItimeline') ){
 						}
 						$result.= "<p class='tf-screen-name'><a target='_blank' href='https://twitter.com/".$string['user']['screen_name']."'>@".$string['user']['screen_name'] .'</a><span>'. $created_at."</span>";
 						if( get_option('tf_retweet_icon') ) {
-							$result.= "<a href='https://twitter.com/intent/retweet?tweet_id=".$string['id']."' class='tf-logo-popup'><img id='tf-twitter-retweet-logo' src='".TF_URL . 'assets/img/retweet.png' ."'></a></p>";
+							$result.= "<a href='https://twitter.com/intent/retweet?tweet_id=".$string['id']."' class='tf-logo-popup'><img id='tf-twitter-retweet-logo' src='".TF_URL . 'assets/img/retweet.png' ."' alt='retweet'></a></p>";
 						}
 
 						$filtered_strings = TwitterAPIhelper::tf_tweet_links_filter($string);

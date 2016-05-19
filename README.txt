@@ -28,6 +28,8 @@ Twitter tweets and feeds makes it easy for the users to show their twitter feeds
 
 Documentation on http://deepenbajracharya.com.np/documentation/twitter/1.0/
 
+Tweet using TwitterAPI github repository: https://github.com/techies23/twitter-using-twitterapi
+
 == Installation ==
 
 1. Add the Twitter plugin to your WordPress installation
@@ -57,3 +59,18 @@ Follow here http://deepenbajracharya.com.np/documentation/twitter/1.0/#faq
 * Responsive CSS tweaks
 * Removed the inline CSS Editor
 * Minor Changes
+
+= 1.2 =
+* Added image alt attributes
+* Minor changes
+
+= 1.3 =
+* Added Translations
+
+== Upgrade Notice ==
+
+= 1.2 =
+* Changed SEO issues and few security issues.
+
+= 1.3 =
+* Added translations

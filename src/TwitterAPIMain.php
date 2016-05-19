@@ -29,6 +29,7 @@ if(!class_exists('TwitterAPIMain')){
 			$this->plugin_slug = TF_PLUGIN_SLUG;
 			add_action( 'wp_enqueue_scripts', array( $this, 'tf_enqueues_public_scripts' ) );
 			add_action( 'admin_enqueue_scripts', array( $this, 'tf_enqueues_admin_scripts' ) );
+			add_action( 'plugins_loaded', array($this, 'tf_load_textdomain') );
 			$this->tf_load_dependencies();
 			add_action( 'init', array($this,'tf_configure_keys' ) );
 			//Initialize the Widget
@@ -103,6 +104,16 @@ if(!class_exists('TwitterAPIMain')){
 		wp_enqueue_script( TF_PLUGIN_SLUG . '-tfjs', TF_URL . 'assets/js/tf-editor.js', array('jquery'), time(), true );
 		wp_enqueue_script( TF_PLUGIN_SLUG . '-tf-maginifcscrpit', TF_URL . 'assets/js/jquery.magnific-popup.min.js', array('jquery'), time(), true );
 
+	}
+
+	/**
+	* Load Text Domain
+	*
+	* @since  1.3
+	* @author  Deepen
+	*/
+	public function tf_load_textdomain() {
+		load_plugin_textdomain( 'tfdocs_textdomain', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
 	}
 
 	/**

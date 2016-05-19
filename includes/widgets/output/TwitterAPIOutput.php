@@ -83,12 +83,12 @@ if( !empty($strings['errors']) ) {
 			if( !empty( $instance['tf_show_profile_thumnails'] ) ) {
 				$result.= "<div class='tf_widget_content_wrapper_with_thumbnail'>";
 				$result.= "<div class='tf_widget_image_thumb_wrap'><img src=". $string['user']['profile_image_url'] ." alt='twitter_img_thumb'></div>";
-				$result.= "<div class='tf-widget-screen-name'><a href='https://twitter.com/intent/retweet?tweet_id=".$string['id']."' class='tf-logo-popup'><img id='tf-twitter-retweet-logo' src='".TF_URL . 'assets/img/retweet.png' ."'></a><li><a target='_blank' href='https://twitter.com/".$string['user']['screen_name']."'>@".$string['user']['screen_name'] .'</a></li><li>'. $created_at."</li></div>";
+				$result.= "<div class='tf-widget-screen-name'><a href='https://twitter.com/intent/retweet?tweet_id=".$string['id']."' class='tf-logo-popup'><img id='tf-twitter-retweet-logo' src='".TF_URL . 'assets/img/retweet.png' ."' alt='retweet'></a><li><a target='_blank' href='https://twitter.com/".$string['user']['screen_name']."'>@".$string['user']['screen_name'] .'</a></li><li>'. $created_at."</li></div>";
 				$result.= "<div class='clear'></div>";
 			} else {
 				$result.= "<div class='tf_widget_content_wrapper_no_thumbnail'>";
 				$result.= "<div class='tf-wid-screen-name'><a target='_blank' href='https://twitter.com/".$string['user']['screen_name']."'>@".$string['user']['screen_name'] .'</a><span>'. $created_at."</span>";
-				$result.= "<a href='https://twitter.com/intent/retweet?tweet_id=".$string['id']."' class='tf-logo-popup'><img id='tf-twitter-retweet-logo' src='".TF_URL . 'assets/img/retweet.png' ."'></a></div>";
+				$result.= "<a href='https://twitter.com/intent/retweet?tweet_id=".$string['id']."' class='tf-logo-popup'><img alt='retweet' id='tf-twitter-retweet-logo' src='".TF_URL . 'assets/img/retweet.png' ."'></a></div>";
 				
 			}
 

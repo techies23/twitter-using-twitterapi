@@ -3,13 +3,12 @@
  *
  * @link              http://www.deepenbajracharya.com.np
  * @since             1.0
- * @version           modified on 1.1
  * @package           Tweet using TwitterAPI
  *
  * Plugin Name:      	Tweet using TwitterAPI
  * Plugin URI:        http://deepenbajracharya.com.np/
  * Description:       Twitter tweets and feeds makes it easy for the users to show their twitter feeds into their site. This is a simple though powerful plugin. 
- * Version:           1.1
+ * Version:           1.3
  * Author:            Deepen Bajracharya
  * Author URI:        http://deepenbajracharya.com.np/
  * License:           GPL-2.0+
@@ -30,7 +29,7 @@ define( 'TF_PATH', plugin_dir_path( __FILE__ ) );
 define( 'TF_INCLUDES_PATH', plugin_dir_path( __FILE__ ) .'includes' );
 define( 'TF_URL', plugin_dir_url( __FILE__ ) );
 define( 'TF_REQUIRED_PHP_VERSION', '5.4' );
-define( 'TF_PLUGIN_VERSION', '1.1' );
+define( 'TF_PLUGIN_VERSION', '1.3' );
 define( 'TF_JSON_PATH', plugin_dir_path( __FILE__ ) . 'json/' );
 
 function tf_activate() {
